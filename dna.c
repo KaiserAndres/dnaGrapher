@@ -24,12 +24,12 @@ int main()
 
   while (1)
   {
-    line[pos-1]  = '-';
-    line[pos]    = '-';
-    line[pos+1]  = '-';
-    line[pos2-1] = '-';
-    line[pos2]   = '-';
-    line[pos2+1] = '-';
+    line[pos-1]  = ' ';
+    line[pos]    = ' ';
+    line[pos+1]  = ' ';
+    line[pos2-1] = ' ';
+    line[pos2]   = ' ';
+    line[pos2+1] = ' ';
     x += 10;
     pos  = sin((x*(PI/180))/2)   *   20+MIDDLE;
     pos2 = sin((x*(PI/180))/2)* (-1)*20+MIDDLE;
