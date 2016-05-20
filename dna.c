@@ -20,7 +20,7 @@ int main()
   int x, pos, pos2, printIndex;
   pos = pos2 = 0;
   x = 0;
-  char line[43] = "------------------------------------------";
+  char line[43] = "                                          ";
 
   while (1)
   {
